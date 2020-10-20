@@ -1,0 +1,17 @@
+name: "Hello Actions"
+description: "Greet someone"
+author: "www.jwpark.co.kr@gmail.com"
+
+inputs:
+  MY_NAME:
+    desctiption: "Who to greet"
+    required: true
+    default: "World"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"
